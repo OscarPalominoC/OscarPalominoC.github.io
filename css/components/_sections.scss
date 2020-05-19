@@ -1,0 +1,75 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+    .title {
+        margin-top: 100px;
+        padding-bottom: 30px;
+        text-align: center;
+        border-bottom: 1px solid $darkBlue;
+    }
+    .boxContainer {
+        margin-top: 50px;
+        border: 1px solid $darkBlue;
+        border-radius: 30px;
+        padding: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        .boxContent {
+            width: 60%;
+            height: auto;
+            h1 {
+                font-size: 40px;
+                font-weight: 600;
+            }
+            h2 {
+                font-size: 30px;
+                font-weight: 600px;
+            }
+            a {
+                text-decoration: none;
+                color: $darkBlue;
+            }
+        }
+        .boxImageContainer {
+            width: 40%;
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+    .contact {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        .formContact {
+            display: inline-block;
+            width: 90%;
+            height: auto;
+            margin: 50px auto;
+            padding: 30px;
+            border: 1px solid $darkBlue;
+            border-radius: 30px;
+            text-align: left;
+            label {
+                margin-bottom: 20px;
+            }
+            input {
+                width: 100%;
+                height: 30px;
+                margin: 10px 0 20px 0;
+                border-radius: 10px;
+            }
+            .formInputMessage {
+                height: 100px;
+            }
+            .button {
+                padding: 10px 50px;
+                margin-top: 20px;
+                border: 1px solid $darkBlue;
+                border-radius: 20px;
+            }
+        }
+    }
+}

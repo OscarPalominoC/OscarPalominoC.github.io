@@ -1,0 +1,57 @@
+.HeroContent {
+    background-color: $darkBlue;
+    color: $ligthColor;
+    width: 100%;
+    height: auto;
+    .Hero {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 3fr 3fr 1fr;
+        .heroContent {
+            grid-column: 1;
+            margin-top: 100px;
+            h1 {
+                font-family: $fontMainTitle;
+                font-size: 50px;
+                text-align: center;
+            }
+            p {
+                font-family: $fontTitle;
+                font-size: 20px;
+                text-align: left;
+                margin-top: 10px;
+            }
+            a {
+                margin: 20px 0;
+                width: fit-content;
+                padding: 10px;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                border: 1px solid green;
+                background-color: green;
+                text-decoration: none;
+                p {
+                    color: $darkBlue;
+                }
+            }
+        }
+        .heroImageContainer {
+            height: 100%;
+
+        }
+        .socialMedia {
+            display: inline-flex;
+            justify-content: flex-end;
+            align-items: center;
+            ul {
+                li {
+                    list-style: none;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+}

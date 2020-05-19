@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Lato", sans-serif;
+  color: #1A1830;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #1A1830;
+  color: #FFF;
+  width: 100%;
+  height: 50px;
+}
+header .navContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navContainer .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+header .navContainer .logo .imageContainer {
+  width: 50px;
+  height: 50px;
+}
+header .navContainer .logo .imageContainer img {
+  width: 100%;
+}
+header .navContainer .menuContainer ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .navContainer .menuContainer ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+header .navContainer .menuContainer ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.HeroContent {
+  background-color: #1A1830;
+  color: #FFF;
+  width: 100%;
+  height: auto;
+}
+.HeroContent .Hero {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+}
+.HeroContent .Hero .heroContent {
+  grid-column: 1;
+  margin-top: 100px;
+}
+.HeroContent .Hero .heroContent h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+.HeroContent .Hero .heroContent p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+}
+.HeroContent .Hero .heroContent a {
+  margin: 20px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid green;
+  background-color: green;
+  text-decoration: none;
+}
+.HeroContent .Hero .heroContent a p {
+  color: #1A1830;
+}
+.HeroContent .Hero .heroImageContainer {
+  height: 100%;
+}
+.HeroContent .Hero .socialMedia {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.HeroContent .Hero .socialMedia ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main .title {
+  margin-top: 100px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #1A1830;
+}
+main .boxContainer {
+  margin-top: 50px;
+  border: 1px solid #1A1830;
+  border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+main .boxContainer .boxContent {
+  width: 60%;
+  height: auto;
+}
+main .boxContainer .boxContent h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+main .boxContainer .boxContent h2 {
+  font-size: 30px;
+  font-weight: 600px;
+}
+main .boxContainer .boxContent a {
+  text-decoration: none;
+  color: #1A1830;
+}
+main .boxContainer .boxImageContainer {
+  width: 40%;
+}
+main .boxContainer .boxImageContainer img {
+  width: 100%;
+}
+main .contact {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+main .contact .formContact {
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #1A1830;
+  border-radius: 30px;
+  text-align: left;
+}
+main .contact .formContact label {
+  margin-bottom: 20px;
+}
+main .contact .formContact input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0 20px 0;
+  border-radius: 10px;
+}
+main .contact .formContact .formInputMessage {
+  height: 100px;
+}
+main .contact .formContact .button {
+  padding: 10px 50px;
+  margin-top: 20px;
+  border: 1px solid #1A1830;
+  border-radius: 20px;
+}
