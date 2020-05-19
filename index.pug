@@ -1,0 +1,31 @@
+extend components/theme.pug
+block content
+    .Hero
+        .heroContent
+            h1 Ingeniero Industrial Data Scientist
+            p Soy un ingeniero industrial y científico de datos de Colombia.
+            p Disponible para nuevos proyectos.
+            a(href="mailto:ing.oscarp1@gmail.com")
+                i 
+                p Contáctame
+        figure.heroImageContainer
+            img(src="")
+        .socialMedia
+            ul
+                li Facebook
+                li Github
+                li LinkedIn
+                li Twitter
+                li Instagram
+    main
+        section.projectsContainer
+            h3 Proyectos
+
+            +boxProject('PlatziVideo', 'HTML y CSS', 'Puedes verla en: ', 'https://oscarpalominoc.github.io/platzi-video/', 'Página web en la que los usuarios registrados pueden guardar su playlist favorita y compartila con sus amigos.', 'Para el diseño se implementó CSS Grid.', '/', 'PlatziVideo')
+            +boxProject('Movi.es', 'HTML y CSS', 'Puedes verla en: ', 'https://oscarpalominoc.github.io/grid-css-movi/', 'Página web en la que los usuarios registrados pueden ver todas las clases de películas que estén disponibles.', 'Para el diseño se implementó CSS Grid.', '/', 'Movi.es')
+            +boxProject('Brand', 'HTML y CSS', 'Puedes verla en: ', 'https://oscarpalominoc.github.io/digital-product/', 'Página web en la que puedes comprar todas las cajas con gatitos que desees. Si llegas a efectuar una compra, lo más probable es que no te llegue una caja con gatitos, pero si me apoyarías a continuar aprendiendo.', 'Para el diseño se implementó display Flex.', '/', 'Cajas con gatitos.')
+        section.skills
+        section.contact
+            h3 ¿Trabajamos juntos?
+            +contactForm('Nombre', 'Email', 'Mensaje', 'Enviar')
+        

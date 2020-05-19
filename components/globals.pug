@@ -1,0 +1,25 @@
+
+
+mixin boxProject(titulo1, titulo2, titulo3, enlace, contenido1, contenido2, imagen, descripcion)
+    .boxContainer
+        .boxContent
+            h1= titulo1
+            h2= titulo2
+            h3= titulo2
+                span 
+                    a(href=+enlace target="_blank")= enlace
+            p= contenido1
+            p= contenido2
+        .boxImageContainer
+            figure.boxImage
+                img(src=""+imagen alt= descripcion)
+
+mixin contactForm(name, email, message, button)
+    .formContact
+        label= name
+        input.formInput(type="text")
+        label= email
+        input.formInput(type="text")
+        label= message
+        input.formInputMessage(type="text")
+        a.button(href="/" target="_blank")= button
