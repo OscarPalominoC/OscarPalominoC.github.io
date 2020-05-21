@@ -7,11 +7,11 @@ main {
         text-align: center;
         color: $lightBlueTitles;
         font-size: 2rem;
-        border-bottom: 1px solid $darkBlue;
+        border-bottom: 1px solid rgba(214, 214, 214, 0.631);
     }
     .boxContainer {
         margin-top: 50px;
-        box-shadow: 5px 5px 5px 5px #000000A1;
+        box-shadow: 5px 5px 5px 5px rgba(214, 214, 214, 0.631);
         border-radius: 30px;
         padding: 50px;
         display: flex;
@@ -61,7 +61,7 @@ main {
             padding: 50px;
             border-radius: 30px;
             text-align: left;
-            box-shadow: 5px 5px 5px 5px #000000A1;
+            box-shadow: 5px 5px 5px 5px rgba(214, 214, 214, 0.631);
             label {
                 margin-bottom: 20px;
             }

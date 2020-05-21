@@ -157,11 +157,11 @@ main .title {
   text-align: center;
   color: #39B1FF;
   font-size: 2rem;
-  border-bottom: 1px solid #1A1830;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.631);
 }
 main .boxContainer {
   margin-top: 50px;
-  box-shadow: 5px 5px 5px 5px #000000A1;
+  box-shadow: 5px 5px 5px 5px rgba(214, 214, 214, 0.631);
   border-radius: 30px;
   padding: 50px;
   display: flex;
@@ -210,7 +210,7 @@ main .contact .formContact {
   padding: 50px;
   border-radius: 30px;
   text-align: left;
-  box-shadow: 5px 5px 5px 5px #000000A1;
+  box-shadow: 5px 5px 5px 5px rgba(214, 214, 214, 0.631);
 }
 main .contact .formContact label {
   margin-bottom: 20px;
@@ -297,6 +297,6 @@ footer {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: black;
+  background-color: #1A1830;
   color: #FFFFFF;
 }
