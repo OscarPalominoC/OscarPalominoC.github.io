@@ -6,7 +6,7 @@ header {
     background-color: $darkBlue;
     color: $ligthColor;
     width: 100%;
-    height: 50px;
+    height: 80px;
     .navContainer {
         width: 80%;
         margin: auto;
@@ -23,6 +23,10 @@ header {
                 img {
                     width: 100%;
                 }
+            }
+            .logoContent {
+                color: $ligthColor;
+                margin-left: 10px;
             }
         }
         .menuContainer {

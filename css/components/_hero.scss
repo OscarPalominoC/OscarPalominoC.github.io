@@ -7,7 +7,7 @@
         width: 80%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 3fr 3fr 1fr;
+        grid-template-columns: 2.5fr 2fr .5fr;
         .heroContent {
             grid-column: 1;
             margin-top: 100px;
@@ -16,6 +16,7 @@
                 font-family: $fontMainTitle;
                 font-size: 50px;
                 text-align: center;
+                color: $ligthColor;
             }
             p {
                 font-family: $fontTitle;
@@ -30,9 +31,13 @@
                 display: flex;
                 justify-content: left;
                 align-items: center;
-                border: 1px solid green;
-                background-color: green;
+                background-color: $lightBlue;
                 text-decoration: none;
+                border-radius: 10px;
+                img {
+                    width: 50px;
+                    margin-right: 10px;
+                }
                 p {
                     color: $darkBlue;
                 }
@@ -40,7 +45,12 @@
         }
         .heroImageContainer {
             height: 100%;
-
+            border-bottom: 0;
+            position: relative;
+            img {
+                position: absolute;
+                bottom: 0;
+            }
         }
         .socialMedia {
             display: inline-flex;

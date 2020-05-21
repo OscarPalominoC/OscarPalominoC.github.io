@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap');
 
 $fontMainTitle: 'Satisfy', cursive;
-$fontTitle: 'Lato', sans-serif;
-$fontContent: 'Open Sans', sans-serif;
+$fontTitle: 'Lato', system-ui;
+$fontContent: 'Open Sans', system-ui;
 $darkBlue: #1A1830;
-$ligthColor: #FFF;
+$ligthColor: #FFFFFF;
+$lightBlue: #01FFC3;
+$lightBlueTitles: #39B1FF;
+$darkGray: #818181;
+$backgroundClear: #EBF7FF;
 
 * {
     margin: 0;
@@ -18,15 +22,21 @@ body {
 
 h1, h2, h3 {
     font-family: $fontTitle;
-    color: $darkBlue;
-    margin-bottom: 10px;
 }
 p {
     font-family: $fontContent;
     margin-bottom: 10px;
 }
 
+a {
+    font-family: $fontTitle;
+}
+
 span {
     font-family: $fontContent;
     font-size: .9rem;
+}
+
+label {
+    font-family: $fontContent;
 }
