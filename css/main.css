@@ -10,19 +10,25 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "Lato", sans-serif;
-  color: #1A1830;
-  margin-bottom: 10px;
+  font-family: "Lato", system-ui;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", system-ui;
   margin-bottom: 10px;
 }
 
+a {
+  font-family: "Lato", system-ui;
+}
+
 span {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", system-ui;
   font-size: 0.9rem;
+}
+
+label {
+  font-family: "Open Sans", system-ui;
 }
 
 header {
@@ -31,9 +37,9 @@ header {
   align-items: center;
   margin: 0 auto;
   background-color: #1A1830;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
-  height: 50px;
+  height: 80px;
 }
 header .navContainer {
   width: 80%;
@@ -54,6 +60,10 @@ header .navContainer .logo .imageContainer {
 header .navContainer .logo .imageContainer img {
   width: 100%;
 }
+header .navContainer .logo .logoContent {
+  color: #FFFFFF;
+  margin-left: 10px;
+}
 header .navContainer .menuContainer ul {
   display: flex;
   justify-content: flex-end;
@@ -65,12 +75,12 @@ header .navContainer .menuContainer ul li {
 }
 header .navContainer .menuContainer ul li a {
   text-decoration: none;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .HeroContent {
   background-color: #1A1830;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
   height: auto;
 }
@@ -78,7 +88,7 @@ header .navContainer .menuContainer ul li a {
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 3fr 3fr 1fr;
+  grid-template-columns: 2.5fr 2fr 0.5fr;
 }
 .HeroContent .Hero .heroContent {
   grid-column: 1;
@@ -88,9 +98,10 @@ header .navContainer .menuContainer ul li a {
   font-family: "Satisfy", cursive;
   font-size: 50px;
   text-align: center;
+  color: #FFFFFF;
 }
 .HeroContent .Hero .heroContent p {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", system-ui;
   font-size: 20px;
   text-align: left;
   margin-top: 10px;
@@ -104,15 +115,25 @@ header .navContainer .menuContainer ul li a {
   display: flex;
   justify-content: left;
   align-items: center;
-  border: 1px solid green;
-  background-color: green;
+  background-color: #01FFC3;
   text-decoration: none;
+  border-radius: 10px;
+}
+.HeroContent .Hero .heroContent a img {
+  width: 50px;
+  margin-right: 10px;
 }
 .HeroContent .Hero .heroContent a p {
   color: #1A1830;
 }
 .HeroContent .Hero .heroImageContainer {
   height: 100%;
+  border-bottom: 0;
+  position: relative;
+}
+.HeroContent .Hero .heroImageContainer img {
+  position: absolute;
+  bottom: 0;
 }
 .HeroContent .Hero .socialMedia {
   display: inline-flex;
@@ -132,11 +153,13 @@ main .title {
   margin-top: 100px;
   padding-bottom: 30px;
   text-align: center;
+  color: #39B1FF;
+  font-size: 2rem;
   border-bottom: 1px solid #1A1830;
 }
 main .boxContainer {
   margin-top: 50px;
-  border: 1px solid #1A1830;
+  box-shadow: 5px 5px 5px 5px #000000A1;
   border-radius: 30px;
   padding: 50px;
   display: flex;
@@ -150,14 +173,21 @@ main .boxContainer .boxContent {
 main .boxContainer .boxContent h1 {
   font-size: 40px;
   font-weight: 600;
+  color: #1A1830;
 }
 main .boxContainer .boxContent h2 {
   font-size: 30px;
   font-weight: 600px;
+  color: #818181;
+}
+main .boxContainer .boxContent h3 {
+  font-size: 25px;
+  font-weight: 600px;
+  color: #818181;
 }
 main .boxContainer .boxContent a {
   text-decoration: none;
-  color: #1A1830;
+  color: #818181;
 }
 main .boxContainer .boxImageContainer {
   width: 40%;
@@ -175,18 +205,19 @@ main .contact .formContact {
   width: 90%;
   height: auto;
   margin: 50px auto;
-  padding: 30px;
-  border: 1px solid #1A1830;
+  padding: 50px;
   border-radius: 30px;
   text-align: left;
+  box-shadow: 5px 5px 5px 5px #000000A1;
 }
 main .contact .formContact label {
   margin-bottom: 20px;
 }
 main .contact .formContact input {
-  width: 100%;
+  width: 95%;
   height: 30px;
   margin: 10px 0 20px 0;
+  padding: 0 20px;
   border-radius: 10px;
 }
 main .contact .formContact .formInputMessage {
@@ -195,6 +226,52 @@ main .contact .formContact .formInputMessage {
 main .contact .formContact .button {
   padding: 10px 50px;
   margin-top: 20px;
-  border: 1px solid #1A1830;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #1A1830;
   border-radius: 20px;
+  text-decoration: none;
+}
+
+.skills {
+  display: block;
+  background-color: #1A1830;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.skills h3 {
+  padding-top: 100px;
+  color: #01FFC3;
+  text-align: center;
+  font-size: 2rem;
+}
+.skills .imageContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.skills img {
+  position: absolute;
+  margin-top: 50px;
+  bottom: 0;
+}
+.skills .skillName {
+  float: left;
+  background-color: #EBF7FF;
+  width: 200px;
+  padding: 0.5em;
+  margin: 1em;
+  border-radius: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  color: #FFFFFF;
 }

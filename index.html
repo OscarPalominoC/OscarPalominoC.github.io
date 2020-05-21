@@ -8,77 +8,90 @@
   <header>
     <nav class="navContainer">
       <div class="logo">
-        <figure class="imageContainer"><img src="/" alt="Logo Oscar Palomino"></figure>
+        <figure class="imageContainer"><img src="../assets/logo.svg" alt="Logo Oscar Palomino"></figure>
         <div class="logoContent">
           <h1>Oscar Palomino</h1>
         </div>
       </div>
       <div class="menuContainer">
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </div>
     </nav>
   </header>
-  <section class="HeroContent">
+  <section class="HeroContent" id="home">
     <div class="Hero">
       <div class="heroContent">
-        <h1>Ingeniero Industrial Data Scientist</h1>
+        <h1>Ingeniero Industrial, Data Scientist</h1>
         <p>Soy un ingeniero industrial y científico de datos de Colombia.</p>
-        <p>Disponible para nuevos proyectos.</p><a href="mailto:ing.oscarp1@gmail.com"><i> </i>
+        <p>Disponible para nuevos proyectos.</p><a href="mailto:ing.oscarp1@gmail.com"><img src="../assets/letter.svg">
           <p>Contáctame</p></a>
       </div>
-      <figure class="heroImageContainer"><img src=""></figure>
+      <figure class="heroImageContainer"><img src="../assets/Hero.png" alt="Oscar Palomino" srcset="../assets/Hero.png, ../assets/Hero@2x.png 2x"></figure>
       <div class="socialMedia">
         <ul>
-          <li>Facebook</li>
-          <li>Github</li>
-          <li>LinkedIn</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
+          <li> <a href="fb.me/oskr.epc" target="_blank"><img src="../assets/facebook.svg" alt="Facebook"></a></li>
+          <li> <a href="https://github.com/OscarPalominoC" target="_blank"><img src="../assets/Github.svg" alt="GitHub"></a></li>
+          <li> <a href="https://www.linkedin.com/in/oscarpalominocardenas/" target="_blank"><img src="../assets/LinkedIn.svg" alt="LinkedIn"></a></li>
+          <li> <a href="https://twitter.com/OscarPalominoC" target="_blank"><img src="../assets/Twitter.svg" alt="Twitter"></a></li>
+          <li> <a href="https://www.instagram.com/oscar.palominoc/" target="_blank"><img src="../assets/instagram.svg" alt="Instagram"></a></li>
         </ul>
       </div>
     </div>
   </section>
   <main>
-    <section class="projectsContainer">
+    <section class="projectsContainer" id="projects">
       <h3 class="title">Proyectos</h3>
       <div class="boxContainer">
         <div class="boxContent">
           <h1>PlatziVideo</h1>
           <h2>HTML y CSS</h2>
-          <h3>Puedes verla en: <span> <a href="null" target="_blank">https://oscarpalominoc.github.io/platzi-video/</a></span></h3>
+          <h3>Puedes verla en: <span> <a href="https://oscarpalominoc.github.io/platzi-video/" target="_blank">https://oscarpalominoc.github.io/platzi-video/</a></span></h3>
           <p>Página web en la que los usuarios registrados pueden guardar su playlist favorita y compartila con sus amigos.</p>
           <p>Para el diseño se implementó CSS Grid.</p>
         </div>
-        <div class="boxImageContainer"><img src="/" alt="PlatziVideo"/></div>
+        <div class="boxImageContainer"><img src="../assets/PlatziVideo Screen.png" alt="PlatziVideo"/></div>
       </div>
       <div class="boxContainer">
         <div class="boxContent">
           <h1>Movi.es</h1>
           <h2>HTML y CSS</h2>
-          <h3>Puedes verla en: <span> <a href="null" target="_blank">https://oscarpalominoc.github.io/grid-css-movi/</a></span></h3>
+          <h3>Puedes verla en: <span> <a href="https://oscarpalominoc.github.io/grid-css-movi/" target="_blank">https://oscarpalominoc.github.io/grid-css-movi/</a></span></h3>
           <p>Página web en la que los usuarios registrados pueden ver todas las clases de películas que estén disponibles.</p>
           <p>Para el diseño se implementó CSS Grid.</p>
         </div>
-        <div class="boxImageContainer"><img src="/" alt="Movi.es"/></div>
+        <div class="boxImageContainer"><img src="../assets/Movie Screen.png" alt="Movi.es"/></div>
       </div>
       <div class="boxContainer">
         <div class="boxContent">
           <h1>Brand</h1>
           <h2>HTML y CSS</h2>
-          <h3>Puedes verla en: <span> <a href="null" target="_blank">https://oscarpalominoc.github.io/digital-product/</a></span></h3>
+          <h3>Puedes verla en: <span> <a href="https://oscarpalominoc.github.io/digital-product/" target="_blank">https://oscarpalominoc.github.io/digital-product/</a></span></h3>
           <p>Página web en la que puedes comprar todas las cajas con gatitos que desees. Si llegas a efectuar una compra, lo más probable es que no te llegue una caja con gatitos, pero si me apoyarías a continuar aprendiendo.</p>
           <p>Para el diseño se implementó display Flex.</p>
         </div>
-        <div class="boxImageContainer"><img src="/" alt="Cajas con gatitos."/></div>
+        <div class="boxImageContainer"><img src="../assets/Brand Screen.png" alt="Cajas con gatitos."/></div>
       </div>
     </section>
-    <section class="skills"></section>
-    <section class="contact">
+  </main>
+  <section class="skills" id="skills">
+    <h3 class="title">Habilidades</h3>
+    <div class="imageContainer"><img src="../assets/SkillsSection.png" alt="Habilidades" srcset="../assets/SkillsSection.png, ../assets/SkillsSection@2x.png 2x"></div><span class="skillName">
+      <p>Matemáticas</p></span><span class="skillName">
+      <p>Inglés</p></span><span class="skillName">
+      <p>C#</p></span><span class="skillName">
+      <p>Diseño web</p></span><span class="skillName">
+      <p>Maestro Pokemon</p></span><span class="skillName">
+      <p>Python</p></span><span class="skillName">
+      <p>Data Science</p></span><span class="skillName">
+      <p>Javascript</p></span>
+  </section>
+  <main>
+    <section class="contact" id="contact">
       <h3 class="title">¿Trabajamos juntos?</h3>
       <form class="formContact">
         <label>Nombre</label>
@@ -91,8 +104,6 @@
     </section>
   </main>
   <footer>
-    <div class="credits">
-      <h1>Designed with 💙 by Oscar Palomino</h1>
-    </div>
+    <h1>Designed with 💙 by Oscar Palomino</h1>
   </footer>
 </body>
