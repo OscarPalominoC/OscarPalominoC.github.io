@@ -108,7 +108,7 @@ header .navContainer .menuContainer ul li a {
   margin-top: 10px;
 }
 .HeroContent .Hero .heroContent a {
-  margin: 20px 0;
+  margin: 50px 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -135,6 +135,7 @@ header .navContainer .menuContainer ul li a {
 .HeroContent .Hero .heroImageContainer img {
   position: absolute;
   bottom: 0;
+  height: 100%;
 }
 .HeroContent .Hero .socialMedia {
   display: inline-flex;
