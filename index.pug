@@ -7,7 +7,7 @@ block content
                 p Soy un ingeniero industrial y científico de datos de Colombia.
                 p Disponible para nuevos proyectos.
                 a(href="mailto:ing.oscarp1@gmail.com")
-                    img(src="../assets/letter.svg")
+                    img(src="../assets/Letter.svg")
                     p Contáctame
             figure.heroImageContainer
                 img(src="../assets/Hero.png" alt="Oscar Palomino" srcset="../assets/Hero.png, ../assets/Hero@2x.png 2x")
@@ -37,16 +37,19 @@ block content
             +boxProject('Brand', 'HTML y CSS', 'Puedes verla en: ', 'https://oscarpalominoc.github.io/digital-product/', 'Página web en la que puedes comprar todas las cajas con gatitos que desees. Si llegas a efectuar una compra, lo más probable es que no te llegue una caja con gatitos, pero si me apoyarías a continuar aprendiendo.', 'Para el diseño se implementó display Flex.', '../assets/Brand Screen.png', 'Cajas con gatitos.')
     section.skills#skills
         h3.title Habilidades
-        .imageContainer
-            img(src="../assets/SkillsSection.png" alt="Habilidades" srcset="../assets/SkillsSection.png, ../assets/SkillsSection@2x.png 2x")
-        +skill('Matemáticas')
-        +skill('Inglés')
-        +skill('C#')
-        +skill('Diseño web')
-        +skill('Maestro Pokemon')
-        +skill('Python')
-        +skill('Data Science')
-        +skill('Javascript')
+        .skillsDivision
+            .skillsLeft
+                +skillLeft('Matemáticas')
+                +skillRight('Inglés')
+                +skillLeft('C#')
+                +skillRight('Diseño web')
+            .imageContainer
+                img(src="../assets/SkillsSection.png" alt="Habilidades" srcset="../assets/SkillsSection.png, ../assets/SkillsSection@2x.png 2x")
+            .skillsRight
+                +skillRight('Maestro Pokemon')
+                +skillLeft('Python')
+                +skillRight('Data Science')
+                +skillLeft('Javascript')
     main
         section.contact#contact
             h3.title ¿Trabajamos juntos?

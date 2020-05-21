@@ -95,15 +95,15 @@ header .navContainer .menuContainer ul li a {
   margin-top: 100px;
 }
 .HeroContent .Hero .heroContent h1 {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: "Satisfy", cursive;
-  font-size: 50px;
+  font-size: 4rem;
   text-align: center;
   color: #FFFFFF;
 }
 .HeroContent .Hero .heroContent p {
   font-family: "Lato", system-ui;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: left;
   margin-top: 10px;
 }
@@ -250,23 +250,46 @@ main .contact .formContact .button {
   text-align: center;
   font-size: 2rem;
 }
-.skills .imageContainer {
-  position: relative;
+.skills .skillsDivision {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.skills .skillsDivision .skillsLeft {
+  grid-column: 1;
+  justify-content: left;
+  display: grid;
+  grid-template-rows: repetat(4, 1fr);
+}
+.skills .skillsDivision .imageContainer {
+  grid-column: 2;
   width: 100%;
   height: auto;
 }
-.skills img {
-  position: absolute;
+.skills .skillsDivision .imageContainer img {
   margin-top: 50px;
   bottom: 0;
 }
-.skills .skillName {
-  float: left;
-  background-color: #EBF7FF;
+.skills .skillsDivision .skillsRight {
+  grid-column: 3;
+  justify-content: right;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+.skills .skillsDivision .skillsRight p {
+  text-align: center;
+}
+
+.skillName {
+  margin: 10px;
+  padding: 10px;
   width: 200px;
-  padding: 0.5em;
-  margin: 1em;
   border-radius: 50px;
+  font-size: 1.3rem;
+  background-color: #EBF7FF;
+  color: #1A1830;
 }
 
 footer {

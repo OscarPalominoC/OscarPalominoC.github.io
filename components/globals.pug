@@ -21,6 +21,9 @@ mixin contactForm(name, email, message, button)
         input.formInputMessage(type="text")
         a.button(href="/" target="_blank")= button
 
-mixin skill(name)
-    span.skillName
+mixin skillLeft(name)
+    span.skillName.left
+        p= name
+mixin skillRight(name)
+    span.skillName.right
         p= name
