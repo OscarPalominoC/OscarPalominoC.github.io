@@ -1,0 +1,6 @@
+cwebp -q 80 BrandScreen.png -o BrandScreen.webp
+cwebp -q 80 Hero.png -o Hero.webp
+cwebp -q 80 Hero@2x.png -o Hero@2x.webp
+cwebp -q 80 MovieScreen.png -o MovieScreen.webp
+cwebp -q 80 SkillsSection.png -o SkillsSection.webp
+cwebp -q 80 SkillsSection@2x.png -o SkillsSection@2x.webp
