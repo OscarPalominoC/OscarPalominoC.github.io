@@ -7,10 +7,10 @@ export const Hero = () => {
 
   const contactLinks = [
     { icon: Mail, text: "ing.oscarp1@gmail.com", href: "mailto:ing.oscarp1@gmail.com" },
-    { icon: Phone, text: "(+57) 316 537 7347", href: "tel:+573165377347" },
     { icon: MapPin, text: t('location'), href: null },
     { icon: Linkedin, text: "LinkedIn", href: "https://www.linkedin.com/in/oscarpalominocardenas/" },
-    { icon: Github, text: "GitHub", href: "https://github.com/OscarPalominoC" },
+    { icon: Github, text: "OscarPalominoC", href: "https://github.com/OscarPalominoC" },
+    { icon: Github, text: "oscar-dev91", href: "https://github.com/oscar-dev91" },
   ];
 
   return (

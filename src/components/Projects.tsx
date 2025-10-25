@@ -20,6 +20,13 @@ export const Projects = () => {
       achievements: [t('proj2_ach1'), t('proj2_ach2')],
       github: "https://github.com/SWAT-Handwritten-Recognition/",
     },
+    {
+      name: t('proj3_name'),
+      description: t('proj3_desc'),
+      achievements: [t('proj3_ach1'), t('proj3_ach2')],
+      demo: "https://oscarpalomino.dev/bancodemo/",
+      github: "https://github.com/BancoDemoApp/",
+    },
   ];
 
   return (

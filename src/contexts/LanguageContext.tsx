@@ -69,6 +69,14 @@ const translations = {
     proj2_ach1: "Built a working neural network capable of distinguishing subtle variations in handwriting.",
     proj2_ach2: "Enhanced model precision through iterative testing and validation.",
     
+    // Project 3
+    proj3_name: "BancoDemoApp",
+    proj3_role: "Full Stack Developer",
+    proj3_desc: "Developed a web application simulating a banking environment, enabling users to manage accounts, perform transfers, deposits, and withdrawals, and view transaction history securely.",
+    proj3_ach1: "Implemented end-to-end authentication and account management flows with real-time validation.",
+    proj3_ach2: "Enhanced user experience with responsive design and interactive React components, deployed on free hosting platforms.",
+
+    
     // Education
     educationTitle: "Education",
     
@@ -158,6 +166,14 @@ const translations = {
     proj2_ach1: "Construí una red neuronal funcional capaz de distinguir variaciones sutiles en la escritura.",
     proj2_ach2: "Mejoré la precisión del modelo a través de pruebas iterativas y validación.",
     
+
+    // Project 3
+    proj3_name: "BancoDemoApp",
+    proj3_role: "Desarrollador Full Stack",
+    proj3_desc: "Desarrollé una aplicación web que simula un entorno bancario, permitiendo a los usuarios gestionar cuentas, realizar transferencias, depósitos y retiros, y consultar el historial de transacciones de forma segura.",
+    proj3_ach1: "Implementé flujos completos de autenticación y gestión de cuentas con validación en tiempo real.",
+    proj3_ach2: "Mejoré la experiencia del usuario con diseño responsivo y componentes interactivos en React, desplegados en plataformas de hosting gratuitas.",
+
     // Education
     educationTitle: "Educación",
     
