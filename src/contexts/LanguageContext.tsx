@@ -56,26 +56,32 @@ const translations = {
     viewDemo: "Live Demo",
     viewCode: "GitHub",
     
-    // Project 1
-    proj1_name: "News Inc – Data Miner",
-    proj1_desc: "Developed a web scraping pipeline to extract news articles from six international newspapers. The extracted data was stored in a MongoDB non-relational database.",
-    proj1_ach1: "Automated extraction and classification of multilingual articles.",
-    proj1_ach2: "Improved processing speed and data structure for query access.",
-    
-    // Project 2
-    proj2_name: "Handwritten Signature Recognition",
-    proj2_role: "Data Scientist",
-    proj2_desc: "Designed and implemented a Siamese Convolutional Neural Network to validate user-provided signatures against stored ones. The model delivered a match result based on a 90% similarity threshold.",
-    proj2_ach1: "Built a working neural network capable of distinguishing subtle variations in handwriting.",
-    proj2_ach2: "Enhanced model precision through iterative testing and validation.",
-    
-    // Project 3
-    proj3_name: "BancoDemoApp",
-    proj3_role: "Full Stack Developer",
-    proj3_desc: "Developed a web application simulating a banking environment, enabling users to manage accounts, perform transfers, deposits, and withdrawals, and view transaction history securely.",
-    proj3_ach1: "Implemented end-to-end authentication and account management flows with real-time validation.",
-    proj3_ach2: "Enhanced user experience with responsive design and interactive React components, deployed on free hosting platforms.",
+    // Project 1 – MAIN PROJECT
+    proj1_name: "Pocket Application",
+    proj1_role: "Full Stack Developer",
+    proj1_desc: "Developed a personal finance management platform that allows users to track accounts, incomes, expenses, transfers, and balances in real time with a secure and auditable architecture.",
+    proj1_ach1: "Designed a full-stack architecture using React, FastAPI, PostgreSQL, and Redis with JWT-based authentication.",
+    proj1_ach2: "Implemented automated balance calculations, transfers, and audit logging for full financial traceability.",
 
+    // Project 2
+    proj2_name: "News Inc – Data Miner",
+    proj2_desc: "Developed a web scraping pipeline to extract news articles from six international newspapers. The extracted data was stored in a MongoDB non-relational database.",
+    proj2_ach1: "Automated extraction and classification of multilingual articles.",
+    proj2_ach2: "Improved processing speed and data structure for query access.",
+
+    // Project 3
+    proj3_name: "Handwritten Signature Recognition",
+    proj3_role: "Data Scientist",
+    proj3_desc: "Designed and implemented a Siamese Convolutional Neural Network to validate user-provided signatures against stored ones. The model delivered a match result based on a 90% similarity threshold.",
+    proj3_ach1: "Built a neural network capable of distinguishing subtle variations in handwriting.",
+    proj3_ach2: "Enhanced model precision through iterative testing and validation.",
+
+    // Project 4
+    proj4_name: "BancoDemoApp",
+    proj4_role: "Full Stack Developer",
+    proj4_desc: "Developed a web application simulating a banking environment, enabling users to manage accounts, perform transfers, deposits, withdrawals, and securely view transaction history.",
+    proj4_ach1: "Implemented end-to-end authentication and account management flows with real-time validation.",
+    proj4_ach2: "Enhanced user experience with responsive design and interactive React components.",
     
     // Education
     educationTitle: "Education",
@@ -153,26 +159,32 @@ const translations = {
     viewDemo: "Demo en Vivo",
     viewCode: "GitHub",
     
-    // Project 1
-    proj1_name: "News Inc – Extractor de Datos",
-    proj1_desc: "Desarrollé un pipeline de web scraping para extraer artículos de noticias de seis periódicos internacionales. Los datos extraídos se almacenaron en una base de datos no relacional MongoDB.",
-    proj1_ach1: "Automaticé la extracción y clasificación de artículos multilingües.",
-    proj1_ach2: "Mejoré la velocidad de procesamiento y la estructura de datos para acceso de consultas.",
-    
-    // Project 2
-    proj2_name: "Reconocimiento de Firmas Manuscritas",
-    proj2_role: "Científico de Datos",
-    proj2_desc: "Diseñé e implementé una Red Neuronal Convolucional Siamesa para validar firmas proporcionadas por usuarios contra las almacenadas. El modelo entregó un resultado de coincidencia basado en un umbral de similitud del 90%.",
-    proj2_ach1: "Construí una red neuronal funcional capaz de distinguir variaciones sutiles en la escritura.",
-    proj2_ach2: "Mejoré la precisión del modelo a través de pruebas iterativas y validación.",
-    
+    // Proyecto 1 – PRINCIPAL
+    proj1_name: "Pocket Application",
+    proj1_role: "Desarrollador Full Stack",
+    proj1_desc: "Desarrollé una plataforma de gestión de finanzas personales que permite administrar cuentas, ingresos, egresos, transferencias y saldos en tiempo real con una arquitectura segura y auditable.",
+    proj1_ach1: "Diseñé una arquitectura full stack usando React, FastAPI, PostgreSQL y Redis con autenticación basada en JWT.",
+    proj1_ach2: "Implementé cálculos automáticos de saldos, transferencias y registros de auditoría para trazabilidad financiera completa.",
 
-    // Project 3
-    proj3_name: "BancoDemoApp",
-    proj3_role: "Desarrollador Full Stack",
-    proj3_desc: "Desarrollé una aplicación web que simula un entorno bancario, permitiendo a los usuarios gestionar cuentas, realizar transferencias, depósitos y retiros, y consultar el historial de transacciones de forma segura.",
-    proj3_ach1: "Implementé flujos completos de autenticación y gestión de cuentas con validación en tiempo real.",
-    proj3_ach2: "Mejoré la experiencia del usuario con diseño responsivo y componentes interactivos en React, desplegados en plataformas de hosting gratuitas.",
+    // Proyecto 2
+    proj2_name: "News Inc – Extractor de Datos",
+    proj2_desc: "Desarrollé un pipeline de web scraping para extraer artículos de noticias de seis periódicos internacionales. Los datos se almacenaron en una base de datos no relacional MongoDB.",
+    proj2_ach1: "Automaticé la extracción y clasificación de artículos multilingües.",
+    proj2_ach2: "Mejoré la velocidad de procesamiento y la estructura de datos para acceso eficiente a consultas.",
+
+    // Proyecto 3
+    proj3_name: "Reconocimiento de Firmas Manuscritas",
+    proj3_role: "Científico de Datos",
+    proj3_desc: "Diseñé e implementé una Red Neuronal Convolucional Siamesa para validar firmas proporcionadas por usuarios contra firmas almacenadas, utilizando un umbral de similitud del 90%.",
+    proj3_ach1: "Construí una red neuronal capaz de distinguir variaciones sutiles en la escritura.",
+    proj3_ach2: "Mejoré la precisión del modelo mediante pruebas iterativas y validación.",
+
+    // Proyecto 4
+    proj4_name: "BancoDemoApp",
+    proj4_role: "Desarrollador Full Stack",
+    proj4_desc: "Desarrollé una aplicación web que simula un entorno bancario, permitiendo gestionar cuentas, realizar transferencias, depósitos, retiros y consultar el historial de transacciones de forma segura.",
+    proj4_ach1: "Implementé flujos completos de autenticación y gestión de cuentas con validación en tiempo real.",
+    proj4_ach2: "Mejoré la experiencia del usuario con diseño responsivo y componentes interactivos en React.",
 
     // Education
     educationTitle: "Educación",
