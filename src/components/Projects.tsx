@@ -1,5 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardRole } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, FolderGit2 } from "lucide-react";
 
@@ -9,6 +9,7 @@ export const Projects = () => {
   const projects = [
     {
       name: t('proj1_name'),
+      role: t('proj1_role'),
       description: t('proj1_desc'),
       achievements: [t('proj1_ach1'), t('proj1_ach2')],
       demo: "https://oscarpalomino.dev/pocket/",
@@ -16,6 +17,7 @@ export const Projects = () => {
     },
     {
       name: t('proj2_name'),
+      role: t('proj2_role'),
       description: t('proj2_desc'),
       achievements: [t('proj2_ach1'), t('proj2_ach2')],
       demo: "https://news-inc.web.app/#/",
@@ -23,12 +25,14 @@ export const Projects = () => {
     },
     {
       name: t('proj3_name'),
+      role: t('proj3_role'),
       description: t('proj3_desc'),
       achievements: [t('proj3_ach1'), t('proj3_ach2')],
       github: "https://github.com/SWAT-Handwritten-Recognition/",
     },
     {
       name: t('proj4_name'),
+      role: t('proj4_role'),
       description: t('proj4_desc'),
       achievements: [t('proj4_ach1'), t('proj4_ach2')],
       demo: "https://oscarpalomino.dev/bancodemo/",
@@ -50,6 +54,7 @@ export const Projects = () => {
               <Card key={index} className="shadow-md hover:shadow-xl transition-all hover:-translate-y-1 border-t-4 border-t-accent">
                 <CardHeader>
                   <CardTitle className="text-lg text-foreground">{project.name}</CardTitle>
+                  <CardRole className="text-sm italic text-muted-foreground">{project.role}</CardRole>
                   <CardDescription className="text-sm">{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">

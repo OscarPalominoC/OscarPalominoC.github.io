@@ -64,7 +64,8 @@ const translations = {
     proj1_ach2: "Implemented automated balance calculations, transfers, and audit logging for full financial traceability.",
 
     // Project 2
-    proj2_name: "News Inc – Data Miner",
+    proj2_name: "News Inc",
+    proj2_role: "Web Scraping Developer",
     proj2_desc: "Developed a web scraping pipeline to extract news articles from six international newspapers. The extracted data was stored in a MongoDB non-relational database.",
     proj2_ach1: "Automated extraction and classification of multilingual articles.",
     proj2_ach2: "Improved processing speed and data structure for query access.",
@@ -167,7 +168,8 @@ const translations = {
     proj1_ach2: "Implementé cálculos automáticos de saldos, transferencias y registros de auditoría para trazabilidad financiera completa.",
 
     // Proyecto 2
-    proj2_name: "News Inc – Extractor de Datos",
+    proj2_name: "News Inc",
+    proj2_role: "Desarrollador de Web Scraping",
     proj2_desc: "Desarrollé un pipeline de web scraping para extraer artículos de noticias de seis periódicos internacionales. Los datos se almacenaron en una base de datos no relacional MongoDB.",
     proj2_ach1: "Automaticé la extracción y clasificación de artículos multilingües.",
     proj2_ach2: "Mejoré la velocidad de procesamiento y la estructura de datos para acceso eficiente a consultas.",
