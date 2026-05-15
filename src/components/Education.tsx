@@ -14,7 +14,7 @@ export const Education = () => {
     },
     {
       degree: t('edu2_degree'),
-      school: "",
+      school: t('edu2_school'),
       year: t('edu2_year'),
       description: t('edu2_desc'),
     },

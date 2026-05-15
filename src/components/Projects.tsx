@@ -38,6 +38,22 @@ export const Projects = () => {
       demo: "https://oscarpalomino.dev/bancodemo/",
       github: "https://github.com/BancoDemoApp/",
     },
+    {
+      name: t('proj5_name'),
+      role: t('proj5_role'),
+      description: t('proj5_desc'),
+      achievements: [t('proj5_ach1'), t('proj5_ach2')],
+       demo: "https://oscarpalomino.dev/habits/",
+       github: "https://github.com/OscarPalominoC/Habits-project"
+    },
+    {
+      name: t('proj6_name'),
+      role: t('proj6_role'),
+      description: t('proj6_desc'),
+      achievements: [t('proj6_ach1'), t('proj6_ach2')],
+      demo: "https://oscarpalomino.dev/fit-atlas/",
+      github: "https://github.com/OscarPalominoC/Fit-Atlas"
+    }
   ];
 
   return (

@@ -84,6 +84,20 @@ const translations = {
     proj4_ach1: "Implemented end-to-end authentication and account management flows with real-time validation.",
     proj4_ach2: "Enhanced user experience with responsive design and interactive React components.",
     
+    // Project 5
+    proj5_name: "Habits RPG",
+    proj5_role: "Full Stack Developer & Software Architect",
+    proj5_desc: "Designed and developed a gamified habit-tracking platform inspired by RPG progression systems, allowing users to create habits, complete quests, gain experience, and track personal growth through an engaging game-like experience.",
+    proj5_ach1: "Architected the full-stack application, including scalable backend services, authentication flows, and real-time progression systems.",
+    proj5_ach2: "Implemented RPG mechanics such as levels, missions, rewards, and achievement tracking to improve user engagement and retention.",
+
+    // Project 6
+    proj6_name: "FitAtlas",
+    proj6_role: "Full Stack Developer & Software Architect",
+    proj6_desc: "Developed a fitness and exercise management platform focused on structured workout planning, exercise categorization, and muscle group tracking with a scalable and maintainable architecture.",
+    proj6_ach1: "Designed a comprehensive exercise data model supporting muscle groups, movement patterns, localized content, and advanced filtering.",
+    proj6_ach2: "Built a modern full-stack architecture optimized for performance, maintainability, and future scalability of fitness-related features.",
+
     // Education
     educationTitle: "Education",
     
@@ -94,14 +108,15 @@ const translations = {
     edu1_desc: "Gained a deep understanding of system optimization, operational logistics, and process analysis. Developed critical thinking and leadership skills applicable to both engineering and IT environments.",
     
     // Education 2
-    edu2_degree: "Data Analyst – Platzi Master",
+    edu2_degree: "Data Analyst",
+    edu2_school: "Platzi Master",
     edu2_year: "2020 - 2023",
     edu2_desc: "Highly selective and intensive learning program focused on strengthening technical and soft skills for the tech industry. The curriculum was designed to develop the abilities needed for real-world data science and software engineering roles.",
     
     // Education 3
     edu3_degree: "Technologist in Software Analysis and Development (In Progress)",
     edu3_school: "Servicio Nacional de Aprendizaje – SENA",
-    edu3_year: "Oct. 2023 - Oct. 2025",
+    edu3_year: "Oct. 2023 - Nov. 2025",
     edu3_desc: "Currently in the final phase of the program and preparing for professional internship placement. This career path focuses on the full software development cycle, from requirements analysis to deployment and maintenance.",
     
     // Skills
@@ -188,6 +203,20 @@ const translations = {
     proj4_ach1: "Implementé flujos completos de autenticación y gestión de cuentas con validación en tiempo real.",
     proj4_ach2: "Mejoré la experiencia del usuario con diseño responsivo y componentes interactivos en React.",
 
+    // Proyecto 5
+    proj5_name: "Habits RPG",
+    proj5_role: "Desarrollador Full Stack y Arquitecto de Software",
+    proj5_desc: "Diseñé y desarrollé una plataforma de seguimiento de hábitos gamificada inspirada en sistemas de progresión RPG, permitiendo a los usuarios crear hábitos, completar misiones, ganar experiencia y monitorear su crecimiento personal mediante una experiencia tipo videojuego.",
+    proj5_ach1: "Arquitecturé la aplicación full stack, incluyendo servicios backend escalables, flujos de autenticación y sistemas de progresión en tiempo real.",
+    proj5_ach2: "Implementé mecánicas RPG como niveles, misiones, recompensas y seguimiento de logros para mejorar el compromiso y la retención de usuarios.",
+
+    // Proyecto 6
+    proj6_name: "FitAtlas",
+    proj6_role: "Desarrollador Full Stack y Arquitecto de Software",
+    proj6_desc: "Desarrollé una plataforma de gestión fitness y ejercicios enfocada en la planificación estructurada de entrenamientos, categorización de ejercicios y seguimiento de grupos musculares mediante una arquitectura escalable y mantenible.",
+    proj6_ach1: "Diseñé un modelo de datos integral para ejercicios con soporte para grupos musculares, patrones de movimiento, contenido localizado y filtros avanzados.",
+    proj6_ach2: "Construí una arquitectura full stack moderna optimizada para rendimiento, mantenibilidad y futura escalabilidad de funcionalidades relacionadas con fitness.",
+
     // Education
     educationTitle: "Educación",
     
@@ -198,14 +227,15 @@ const translations = {
     edu1_desc: "Adquirí una comprensión profunda de la optimización de sistemas, logística operacional y análisis de procesos. Desarrollé habilidades de pensamiento crítico y liderazgo aplicables tanto a entornos de ingeniería como de TI.",
     
     // Education 2
-    edu2_degree: "Analista de Datos – Platzi Master",
+    edu2_degree: "Analista de Datos",
+    edu2_school: "Platzi Master",
     edu2_year: "2020 - 2023",
     edu2_desc: "Programa de aprendizaje altamente selectivo e intensivo enfocado en fortalecer habilidades técnicas y blandas para la industria tecnológica. El plan de estudios fue diseñado para desarrollar las capacidades necesarias para roles de ciencia de datos e ingeniería de software del mundo real.",
     
     // Education 3
     edu3_degree: "Tecnólogo en Análisis y Desarrollo de Software (En Curso)",
     edu3_school: "Servicio Nacional de Aprendizaje – SENA",
-    edu3_year: "Oct. 2023 - Oct. 2025",
+    edu3_year: "Oct. 2023 - Nov. 2025",
     edu3_desc: "Actualmente en la fase final del programa y preparándome para la colocación de prácticas profesionales. Esta carrera se centra en el ciclo completo de desarrollo de software, desde el análisis de requisitos hasta el despliegue y mantenimiento.",
     
     // Skills
